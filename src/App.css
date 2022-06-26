@@ -1,4 +1,23 @@
+body {
+  background-color: #529dc0;
+}
+
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: #7ea4b9;
+  padding-bottom: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.master-card {
+  align-self: center;
+  justify-self: center;
+}
+
+.sub-ordinat {
+  text-decoration: underline;
 }
